@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace WebApplication2
+namespace WebApplication3
 {
     public class Program
     {
@@ -19,8 +19,10 @@ namespace WebApplication2
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-            //.UseKestrel()
-            //.UseApplicationInsights()
-                .UseStartup<Startup>();
+            .UseKestrel()
+            .UseContentRoot(Directory.GetCurrentDirectory())
+            .UseIISIntegration()
+                .UseStartup<Startup>()
+            .UseUrls("http://*:9001");
     }
 }
