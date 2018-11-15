@@ -34,6 +34,11 @@ namespace WebApplication4
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddSpaStaticFiles(configuration =>
+            {
+                configuration.RootPath = "wwwroot";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,11 +57,23 @@ namespace WebApplication4
             //app.UseHttpsRedirection();
             app.UseStaticFiles();
             //app.UseCookiePolicy();
-            //app.UseSpaStaticFiles();
+            app.UseSpaStaticFiles();
             //app.UseWelcomePage();
             app.UseDefaultFiles();
             app.UseHsts();
             app.UseMvc();
+
+            app.UseSpa(spa =>
+            {
+                spa.Options.SourcePath = "wwwroot";
+
+                if (env.IsDevelopment())
+                {
+                    //spa.use//.UseReactDevelopmentServer(npmScript: "start");
+                }
+            });
+
+
         }
 
 
