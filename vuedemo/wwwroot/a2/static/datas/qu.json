@@ -1,0 +1,88 @@
+{
+	"displayFieldName": "",
+	"fieldAliases": {
+		"FID": "FID",
+		"Id": "Id",
+		"区名": "区名"
+	},
+	"geometryType": "esriGeometryPoint",
+	"spatialReference": {
+		"wkid": 4326,
+		"latestWkid": 4326
+	},
+	"fields": [{
+		"name": "FID",
+		"type": "esriFieldTypeOID",
+		"alias": "FID"
+	}, {
+		"name": "Id",
+		"type": "esriFieldTypeInteger",
+		"alias": "Id"
+	}, {
+		"name": "区名",
+		"type": "esriFieldTypeString",
+		"alias": "区名",
+		"length": 10
+	}],
+	"features": [{
+		"attributes": {
+			"FID": 0,
+			"Id": 0,
+			"区名": "A区"
+		},
+		"geometry": {
+			"x": 104.06813985556252,
+			"y": 30.551466413323752
+		}
+	}, {
+		"attributes": {
+			"FID": 1,
+			"Id": 0,
+			"区名": "B区"
+		},
+		"geometry": {
+			"x": 104.06831599613106,
+			"y": 30.547062899110337
+		}
+	}, {
+		"attributes": {
+			"FID": 2,
+			"Id": 0,
+			"区名": "C区"
+		},
+		"geometry": {
+			"x": 104.06851729963796,
+			"y": 30.541552215608974
+		}
+	}, {
+		"attributes": {
+			"FID": 3,
+			"Id": 0,
+			"区名": "D区"
+		},
+		"geometry": {
+			"x": 104.07254336977594,
+			"y": 30.542055474376223
+		}
+	}, {
+		"attributes": {
+			"FID": 4,
+			"Id": 0,
+			"区名": "E区"
+		},
+		"geometry": {
+			"x": 104.06581378542454,
+			"y": 30.542005148499499
+		}
+	},  {
+		"attributes": {
+			"FID": 6,
+			"Id": 0,
+			"区名": "G区"
+		},
+		"geometry": {
+			"x": 104.05266464846966,
+			"y": 30.541250260348626
+		}
+	}]
+}

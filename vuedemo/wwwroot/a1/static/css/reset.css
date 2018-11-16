@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section,div {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+#app{
+	min-width: 1280px;
+	overflow: auto;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/*el*/
+.el-carousel__indicator.is-active button{
+	background-color: #238DF6;
+}
+.el-carousel__button{opacity: 1!important;}
+
+
+
+
+	.sub-banner{
+		width: 100%;
+		position: relative;
+		height: 160px;
+
+		text-align: center;
+	}
+	.banner-img{
+		z-index: 11;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: url(../../../static/images/banner.png)center center no-repeat;
+	}
+	.sub-banner::before,.banner::after{
+		content: "";
+		height: 160px;
+		position: absolute;
+		width: 50%;
+		left: 0;
+		top: 0;
+		background: #1856e5;
+		z-index:-1px;
+	}
+	
+	.sub-banner::after{
+		left: auto;
+		right: 0;
+		background: #03e0fb; 
+	}
+	
+
+
+@font-face{
+	font-family: '数字';
+    src:url('./../font/53B17BA99C110.ttf') format('truetype'),
+	  url('./../font/53B17BA99C110.eot') format('embedded-opentype'),
+	  url('./../font/53B17BA99C110.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }  
+	.number{
+		font-family: '数字';
+		color: #FFF;
+		font-size: 24px;
+		letter-spacing: 2px;
+	}
+	

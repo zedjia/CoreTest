@@ -1,0 +1,429 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"geometry": {
+			"coordinates": [104.0679832614548, 30.55278053850248],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 1,
+			"UserID": 0,
+			"name": "WOWO便利店(天府软件园)",
+			"ty": "超市",
+			"type": "WOWO超市",
+			"类别": "超市",
+			"名称": "WOWO便利店(天府软件园)",
+			"小类": "WOWO超市"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0686487646922, 30.55027316910946],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 2,
+			"UserID": 0,
+			"name": "a9美食广场",
+			"ty": "餐厅",
+			"type": "西餐",
+			"类别": "餐厅",
+			"名称": "a9美食广场",
+			"小类": "西餐"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0686309387125, 30.54978703897638],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 5,
+			"UserID": 0,
+			"name": "沁芥兰(天府软件园店)",
+			"ty": "餐厅",
+			"type": "奶茶店",
+			"类别": "餐厅",
+			"名称": "沁芥兰(天府软件园店)",
+			"小类": "奶茶店"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0679060155433, 30.54874313025368],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 6,
+			"UserID": 0,
+			"name": "香遇音乐火锅餐厅",
+			"ty": "餐厅",
+			"type": "火锅店",
+			"类别": "餐厅",
+			"名称": "香遇音乐火锅餐厅",
+			"小类": "火锅店"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0680783333457, 30.54541687563545],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 7,
+			"UserID": 0,
+			"name": "麦当劳(软件园得来速餐厅)",
+			"ty": "餐厅",
+			"type": "麦当劳",
+			"类别": "餐厅",
+			"名称": "麦当劳(软件园得来速餐厅)",
+			"小类": "麦当劳"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0691300661405, 30.54071898653319],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 8,
+			"UserID": 0,
+			"name": "麦园稼",
+			"ty": "餐厅",
+			"type": "奶茶店",
+			"类别": "餐厅",
+			"名称": "麦园稼",
+			"小类": "奶茶店"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0681971732096, 30.54826210971135],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 10,
+			"UserID": 0,
+			"name": "全家便利店(天华一路店)",
+			"ty": "超市",
+			"type": "全家超市",
+			"类别": "超市",
+			"名称": "全家便利店(天华一路店)",
+			"小类": "全家超市"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0693202099226, 30.54344665569983],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 11,
+			"UserID": 0,
+			"name": "凡客便利店",
+			"ty": "超市",
+			"type": "凡客超市",
+			"类别": "超市",
+			"名称": "凡客便利店",
+			"小类": "凡客超市"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0714652694643, 30.54414775153168],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 17,
+			"UserID": 0,
+			"name": "巴国布衣(天府软件园店)",
+			"ty": "餐厅",
+			"type": "中餐",
+			"类别": "餐厅",
+			"名称": "巴国布衣(天府软件园店)",
+			"小类": "中餐"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0718574410149, 30.54294513878756],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 18,
+			"UserID": 0,
+			"name": "成都飞鸟青年旅舍",
+			"ty": "酒店",
+			"type": "青年旅社",
+			"类别": "酒店",
+			"名称": "成都飞鸟青年旅舍",
+			"小类": "青年旅社"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0730874336053, 30.54043751537267],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 19,
+			"UserID": 0,
+			"name": "篮球场",
+			"ty": "运动场",
+			"type": "篮球场",
+			"类别": "运动场",
+			"名称": "篮球场",
+			"小类": "篮球场"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0654757403284, 30.54101580978238],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 21,
+			"UserID": 0,
+			"name": "7 ELEVEn便利店(软件园三期店)",
+			"ty": "超市",
+			"type": "711超市",
+			"类别": "超市",
+			"名称": "7 ELEVEn便利店(软件园三期店)",
+			"小类": "711超市"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0658322599198, 30.54087763355511],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 22,
+			"UserID": 0,
+			"name": "必胜客(软件园餐厅)",
+			"ty": "餐厅",
+			"type": "必胜客",
+			"类别": "餐厅",
+			"名称": "必胜客(软件园餐厅)",
+			"小类": "必胜客"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0659689257633, 30.54090833940046],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 23,
+			"UserID": 0,
+			"name": "肯德基(软件园餐厅)",
+			"ty": "餐厅",
+			"type": "KFC",
+			"类别": "餐厅",
+			"名称": "肯德基(软件园餐厅)",
+			"小类": "KFC"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0661531275520, 30.53984386443182],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 24,
+			"UserID": 0,
+			"name": "麦益客速食餐饮连锁",
+			"ty": "餐厅",
+			"type": "中餐",
+			"类别": "餐厅",
+			"名称": "麦益客速食餐饮连锁",
+			"小类": "中餐"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0602408443276, 30.54123075018953],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 25,
+			"UserID": 0,
+			"name": "蓉漂茶馆",
+			"ty": "餐厅",
+			"type": "茶馆",
+			"类别": "餐厅",
+			"名称": "蓉漂茶馆",
+			"小类": "茶馆"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0728086933355, 30.54315517348192],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 27,
+			"UserID": 0,
+			"name": "成都香蕉公寓",
+			"ty": "酒店",
+			"type": "民宿",
+			"类别": "酒店",
+			"名称": "成都香蕉公寓",
+			"小类": "民宿"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0522607474728, 30.54132798497938],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 28,
+			"UserID": 0,
+			"name": "天府软件园-G区餐厅",
+			"ty": "餐厅",
+			"type": "中餐",
+			"类别": "餐厅",
+			"名称": "天府软件园-G区餐厅",
+			"小类": "中餐"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0775827010079, 30.55692039949355],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 29,
+			"UserID": 0,
+			"name": "中国建设银行（高新支行）",
+			"ty": "银行",
+			"type": "建设银行",
+			"类别": "银行",
+			"名称": "中国建设银行（高新支行）",
+			"小类": "建设银行"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0748415619291, 30.55349397564527],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 30,
+			"UserID": 0,
+			"name": "中国农业银行（天府支行）",
+			"ty": "银行",
+			"type": "农业银行",
+			"类别": "银行",
+			"名称": "中国农业银行（天府支行）",
+			"小类": "农业银行"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0790103776113, 30.5570917206860],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 31,
+			"UserID": 0,
+			"name": "中国工商银行（城南支行）",
+			"ty": "银行",
+			"type": "工商银行",
+			"类别": "银行",
+			"名称": "中国工商银行（城南支行）",
+			"小类": "工商银行"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0717577804655, 30.55258026261896],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 32,
+			"UserID": 0,
+			"name": "上海浦东发展银行（天府支行）",
+			"ty": "银行",
+			"type": "浦发银行",
+			"类别": "银行",
+			"名称": "上海浦东发展银行（天府支行）",
+			"小类": "浦发银行"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0624493290108, 30.54886830344992],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 33,
+			"UserID": 0,
+			"name": "中国邮政储蓄银行（天府支行）",
+			"ty": "银行",
+			"type": "邮政银行",
+			"类别": "银行",
+			"名称": "中国邮政储蓄银行（天府支行）",
+			"小类": "邮政银行"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0768403091740, 30.54938226702723],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 34,
+			"UserID": 0,
+			"name": "成都移动公司",
+			"ty": "通讯",
+			"type": "移动",
+			"类别": "通讯",
+			"名称": "成都移动公司",
+			"小类": "移动"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [104.0662183952439, 30.54801169748777],
+			"type": "Point"
+		},
+		"properties": {
+			"Id": 0,
+			"OBJECTID": 35,
+			"UserID": 0,
+			"name": "中国联通（天府四街营业厅）",
+			"ty": "通讯",
+			"type": "联通",
+			"类别": "通讯",
+			"名称": "中国联通（天府四街营业厅）",
+			"小类": "联通"
+		},
+		"type": "Feature"
+	}]
+}

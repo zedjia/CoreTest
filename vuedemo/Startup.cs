@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -22,37 +23,47 @@ namespace vuedemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            //services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
-                {
-                    HotModuleReplacement = true
-                });
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //    app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
+            //    {
+            //        HotModuleReplacement = true
+            //    });
+            //}
+            //else
+            //{
+            //    app.UseExceptionHandler("/Home/Error");
+            //}
+            var provider = new FileExtensionContentTypeProvider();
 
-            app.UseStaticFiles();
+            // Add csv mapping
+            provider.Mappings[".png"] = "image/png"; // Try text/plain if text/csv doesn't work
 
-            app.UseMvc(routes =>
+            app.UseStaticFiles(new StaticFileOptions
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-
-                routes.MapSpaFallbackRoute(
-                    name: "spa-fallback",
-                    defaults: new { controller = "Home", action = "Index" });
+                ContentTypeProvider = provider
             });
+
+
+            //app.UseStaticFiles();
+            //app.UseFileServer();
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}");
+
+            //    routes.MapSpaFallbackRoute(
+            //        name: "spa-fallback",
+            //        defaults: new { controller = "Home", action = "Index" });
+            //});
         }
     }
 }
